@@ -153,6 +153,10 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # From https://superuser.com/questions/50095/how-can-i-run-mac-osx-graphical-emacs-in-daemon-mode
 alias em="emacsclient -n"
 
+# MEMORY ALIASES
+# The commands are short and don't necessarily map to the underlying progam name
+alias ripgrep="rg"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
